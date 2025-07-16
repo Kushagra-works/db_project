@@ -1,31 +1,29 @@
-# Restaurant Management System
+# DBMS-Based Restaurant Management System
 
-This is a comprehensive restaurant management system.
-To setup this project you will require the following:
+This is a Database Management System (DBMS) project designed to manage restaurant operations like placing orders, handling customers, managing employees, and generating invoices.
 
-- Java JDK 21 or Above
-- MySQL
-- MySQL Connector for Java
-- MySQL Workbench
+## 🔧 Tech Stack
+- **Frontend**: Java Swing GUI
+- **Backend**: Java
+- **Database**: MySQL (DDL, DML, test data scripts)
+- **Authentication**: Role-based login system (Manager, Cook, Waiter, Delivery)
 
-First clone this repository and first run the DDL.sql script in the SQL folder and then to populate some initial data run the test_data.sql script from MySQL workbench
-After all the data has been populated you can go into the src folder and run the RMS.java file (make sure to change the database connection string in the RMS.java file with your user and password)
-There are the following users populated with each user's password being the word 'password'
+## 🚀 Features
+- User authentication and role-based access
+- Real-time order placement and invoice generation
+- Employee and customer management screens
+- Admin interface for managing menu, tables, and staff
+- SQL schema with DDL and test data for simulation
 
-- john_doe : Manager
-- alice_smith : Waiter
-- bob_johnson : Waiter
-- charlie_brown : Cook (Italian)
-- emma_lee : Cook (Chinese)
-- david_williams : Cook (Mexican)
-- olivia_taylor : Cook (Indian)
-- ethan_anderson : Cook (American)
-- sophia_martinez : Delivery Representative
+## 📁 Project Structure
+- `src/`: Java source code (organized by roles/screens)
+- `SQL/`: All SQL files (DDL, test data)
+- `misc/`: Schema diagrams, project descriptions, and idea notes
 
-## Contributors
+## 📸 Screenshots (Optional)
+_Add GUI screenshots here if available_
 
-- Clerk Raj Anuj (2022A7PS0080P) [itsRaCl](https://github.com/itsRaCl)
-- Nirjar Patel (2022A7PS0168P) [nirjar018](https://github.com/nirjar018)
-- Hriday Andodariya (2022A7PS0113P) [hriday-07](https://github.com/hriday-07)
-- Bakul Gupta (2022A7PS0091P) [bakul-gupta](https://github.com/bakul-gupta)
-- Arnav Dham (2022A7PS1182P) [arnavdham](https://github.com/arnavdham)
+## 🧠 Author
+**Kushagra Dwivedi**  
+BITS Pilani  
+GitHub: [Kushagra-works](https://github.com/Kushagra-works)
