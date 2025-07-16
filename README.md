@@ -20,9 +20,6 @@ This is a Database Management System (DBMS) project designed to manage restauran
 - `SQL/`: All SQL files (DDL, test data)
 - `misc/`: Schema diagrams, project descriptions, and idea notes
 
-## 📸 Screenshots (Optional)
-_Add GUI screenshots here if available_
-
 ## 🧠 Author
 **Kushagra Dwivedi**  
 BITS Pilani  
